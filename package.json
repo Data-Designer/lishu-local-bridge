@@ -1,0 +1,13 @@
+{
+  "name": "lishu-local-bridge",
+  "version": "1.0.0",
+  "description": "Standalone local bridge for Lishu AutoResearch local CLI execution.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node bridge.js",
+    "local-bridge": "node bridge.js",
+    "local-bridge:cert": "bash generate-cert.sh",
+    "local-bridge:https": "LOCAL_BRIDGE_USE_HTTPS=1 node bridge.js"
+  }
+}
